@@ -5,31 +5,31 @@
 - [The issue of correctness
   ](#the-issue-of-correctness)
   - [Extraneous imperative thoughts
-    ](#extraneous-imperative-thoughts-)
+    ](#extraneous-imperative-thoughts)
 - [Data Races
-  ](#data-races-)
+  ](#data-races)
 - [Issues with uninteresting type safety
-  ](#issues-with-uninteresting-type-safety-)
+  ](#issues-with-uninteresting-type-safety)
   - [A better way
-    ](#a-better-way-)
+    ](#a-better-way)
 - [Moving beyond
-  ](#moving-beyond-)
+  ](#moving-beyond)
   - [About the chosen language
-    ](#about-the-chosen-language-)
+    ](#about-the-chosen-language)
 - [First examples
-  ](#first-examples-)
+  ](#first-examples)
 - [Composition
-  ](#composition-)
+  ](#composition)
 - [Function composition
-  ](#function-composition-)
+  ](#function-composition)
   - [Implementing function composition:
-    ](#implementing-function-composition-)
+    ](#implementing-function-composition)
   - [Identity function
-    ](#identity-function-)
+    ](#identity-function)
 - [Is it really relevant?
-  ](#is-it-really-relevant-)
+  ](#is-it-really-relevant)
 - [Referentially transparent architectures
-](#referentially-transparent-architectures-)
+](#referentially-transparent-architectures)
 <!-- index-end -->
 
 # About the course
