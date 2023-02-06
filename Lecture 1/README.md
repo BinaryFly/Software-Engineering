@@ -3,7 +3,7 @@
 ## Index
 
 - [The issue of correctness
-  ](#the-issue-of-correctness-)
+  ](#the-issue-of-correctness)
   - [Extraneous imperative thoughts
     ](#extraneous-imperative-thoughts-)
 - [Data Races
