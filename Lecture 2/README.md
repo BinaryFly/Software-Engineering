@@ -3,30 +3,30 @@
 ## Index
 
 - [Structures
-  ](#structures-)
+  ](#structures)
   - [Generic structures
-    ](#generic-structures-)
+    ](#generic-structures)
   - [Transforming containers
-    ](#transforming-containers-)
+    ](#transforming-containers)
   - [Harmonizing the interface
-    ](#harmonizing-the-interface-)
+    ](#harmonizing-the-interface)
   - [Composition of maps
-    ](#composition-of-maps-)
+    ](#composition-of-maps)
   - [A generalization
-    ](#a-generalization-)
+    ](#a-generalization)
   - [Extra constraints
-    ](#extra-constraints-) - [Identity
-    ](#identity-) - [Distribution
-    ](#distribution-)
+    ](#extra-constraints) - [Identity
+    ](#identity) - [Distribution
+    ](#distribution)
   - [Functors
-    ](#functors-) - [An example
-    ](#an-example-)
+    ](#functors) - [An example
+    ](#an-example)
 - [Composition of structures
-  ](#composition-of-structures-)
+  ](#composition-of-structures)
 - [Composition of functors
-  ](#composition-of-functors-)
+  ](#composition-of-functors)
   - [A concrete example
-  ](#a-concrete-example-)
+  ](#a-concrete-example)
   <!-- index-end -->
 
 # Introduction
