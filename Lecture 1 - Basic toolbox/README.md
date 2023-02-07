@@ -143,7 +143,7 @@ Types are seen by many developers as a tool for (verbosely) specifying trivial i
 
 An example of a typical class definition in a statically typed language could be:
 
-```ts
+```cs
 class Person {
   private string name;
   private string surname;
@@ -159,7 +159,7 @@ class Person {
 
 In about ten lines of code we have said very little, but still, in a Java-like language there are no alternatives to this rite of passage before we have a chance to just use a new datatype. Moreover, some languages even require initialization to look as follows:
 
-```ts
+```cs
 Person p = new Person("James", "Semaj", new Date(1, 1, 2001));
 ```
 
@@ -175,13 +175,13 @@ A typical example of this would be defining a datatype to represent stateful pro
 
 We could model this as a type:
 
-```
+```haskell
 type Process s a = s -> (a*s)
 ```
 
 Where `a*s` denotes a pair containing both an `a` and an `s`. Moreover, we could model the fact that processes may fail, therefore a process will not always return `a*s`, but might also return `e`, which is an arbitrary type representing an error:
 
-```
+```haskell
 type FailableProcess e s a = s -> (a*s + e)
 ```
 
@@ -191,7 +191,7 @@ Notice that we are using types to model abstract notions of processes, instead o
 
 Moreover, we could then use such type definitions to run and combine processes. For example, running two processes in sequence will produce both their results:
 
-```
+```haskell
 after : Process e s a * Process e s b -> Process e s (a*b)
 ```
 
@@ -217,7 +217,7 @@ Types are given as primitives, for example `int`, `float`, `string`, etc. We wil
 
 Given two arbitrary types `a` and `b`, we can define a function `f` that takes as input values of type `a` and which returns values of type `b`. We denote such a function with the suggestive notation:
 
-```
+```haskell
 f : a -> b
 ```
 
