@@ -403,11 +403,11 @@ Referential transparency ensures that a function will always behave the exact sa
 
 In order to better understand this, consider the following simple imperative program
 
-```ts
+```python
 def foo(x):
-print(x)
-x = x + 1
-print(x)
+  print(x)
+  x = x + 1
+  print(x)
 ```
 
 and imagine that we are calling `foo(5)`. In the first line of the function the value of `x` is 5. After re-assigning `x` its value will be 6. If we now try to replace `x` in the last `print` statement we would insert 6. This means that, in the first `print` the expression `x` is replaced with 5, and the very same expression in the second print is replaced with 6. This means that this program is not referentially transparent. Indeed the value that we use to replace `x` depends on the state of the program. This means that the order of the computation changes the final result of the program. Indeed if we swapped the variable assignment with the last print, we would print 5 twice and then assign 6 to variable `x`.
