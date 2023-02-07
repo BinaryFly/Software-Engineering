@@ -426,15 +426,15 @@ We could then write the following program (in pseudo-code):
 car = new Car(...)
 
 drive = new Thread(
-while True:
-car.accelerate()
+  while True:
+    car.accelerate()
 )
 
 repair = new Thread(
-car.open_bonnet()
-while car.engine_broken():
-car.repair_engine()
-car.close_bonnet()
+  car.open_bonnet()
+  while car.engine_broken():
+    car.repair_engine()
+    car.close_bonnet()
 )
 
 drive.start()
