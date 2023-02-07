@@ -1,3 +1,19 @@
+<!-- index-start -->
+
+## Index
+
+- [Numbers
+  ](#numbers)
+- [More similar types
+  ](#more-similar-types)
+- [Towards a generalization
+  ](#towards-a-generalization)
+- [Monoid definition, revisited
+  ](#monoid-definition-revisited)
+- [Generalizing from types to functors
+](#generalizing-from-types-to-functors)
+<!-- index-end -->
+
 # Introduction
 
 Some datatypes have even more structure than just functors. This structure appears in different forms. Some forms are very primitive, for example in the sense of some builtin operators that mirror our mathematical understanding of a given structure. Some forms are more abstract, and, when combined with functors, give rise to some very powerful design patterns that play a crucial role in the definition of higher order meta programming abstractions.
