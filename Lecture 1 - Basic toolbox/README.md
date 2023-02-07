@@ -143,7 +143,7 @@ Types are seen by many developers as a tool for (verbosely) specifying trivial i
 
 An example of a typical class definition in a statically typed language could be:
 
-```python
+```ts
 class Person {
   private string name;
   private string surname;
@@ -159,7 +159,7 @@ class Person {
 
 In about ten lines of code we have said very little, but still, in a Java-like language there are no alternatives to this rite of passage before we have a chance to just use a new datatype. Moreover, some languages even require initialization to look as follows:
 
-```python
+```ts
 Person p = new Person("James", "Semaj", new Date(1, 1, 2001));
 ```
 
