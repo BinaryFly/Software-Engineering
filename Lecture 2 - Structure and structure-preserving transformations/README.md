@@ -60,9 +60,9 @@ type Countainer<a> = { content: a; counter: number };
 The definition of `Countainer` is not of a single, concrete datatype. Rather, `Countainer` defines, in one go, infinitely many data structures, one for each possible type `a`. We could define, and use, concrete instances of `Countainer` by passing it different concrete types as input:
 
 ```ts
-let c_i:Countainer<number>({ content:10, counter:0 })
-let c_s:Countainer<string>({ content:"Howdy!", counter:0 })
-let c_ss:Countainer<Array<string>>({ content:["Howdy", "!"], counter:0 })
+let c_i: Countainer<number> = ({ content:10, counter:0 })
+let c_s: Countainer<string> = ({ content:"Howdy!", counter:0 })
+let c_ss: Countainer<Array<string>> = ({ content:["Howdy", "!"], counter:0 })
 ```
 
 and so on.
