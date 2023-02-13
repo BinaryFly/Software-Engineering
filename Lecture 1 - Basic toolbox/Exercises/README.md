@@ -4,7 +4,7 @@
 
 Select the **False** sentence about a referentially-transparent function
 
-**A**: he result of the function might change depending on the point of the program it is invoked from
+**A**: The result of the function might change depending on the point of the program it is invoked from
 
 **B**: Its result only depends on the input arguments
 
