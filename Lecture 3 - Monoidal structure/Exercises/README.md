@@ -117,6 +117,8 @@ let zero: Fun<unit, string>;
 let plus: Fun<Pair<string, string>, string>;
 ```
 
+<hr>
+
 ## _5_
 
 Define the list as a monoid with the following monoidal operations:
@@ -128,6 +130,8 @@ let plus: <a>() => Fun<Pair<List<a>, List<a>>, List<a>>;
 
 where `plus` is the list concatenation.
 
+<hr>
+
 ## _6_
 
 Implement the identity functor `Identity<a>` and extend it with the monoid operations for functors:
@@ -137,6 +141,8 @@ let id: <a>() => Fun<a, Identity<a>>;
 let join: <a>() => Fun<Identity<Identity<a>>, Identity<a>>;
 ```
 
+<hr>
+
 ## _7_
 
 Extend the `Option` functor with the monoid operations for functors:
@@ -145,6 +151,8 @@ Extend the `Option` functor with the monoid operations for functors:
 let unit: <a>() => Func<a, Option<a>>;
 let join: <a>() => Func<Option<Option<a>>, Option<a>>;
 ```
+
+<hr>
 
 ## _8_
 
