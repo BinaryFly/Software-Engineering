@@ -192,7 +192,7 @@ The `bind` operator allows us to merge together (the "content") of a monad to a 
 `bind` has one minor issue though: it is completely disconnected from our original principles of _composing through functions_, which we have seen has shown its usefulness ubiquitously. We can reformulate `bind` in a way which, while being substantially equivalent, emphasizes that this sort of operator is nothing but a way of composing specially defined functions:
 
 ```ts
-let then_F = <a, b>(f: Fun<a, F<b>>, g: Fun<b, F<c>>): Fun<a, F<c>> =>
+let then_F = <a, b, c>(f: Fun<a, F<b>>, g: Fun<b, F<c>>): Fun<a, F<c>> =>
   f.then(map_F<b, F<c>>(g)).then(join_F<c>());
 ```
 
