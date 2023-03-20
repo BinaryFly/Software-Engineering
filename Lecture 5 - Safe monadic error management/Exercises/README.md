@@ -25,7 +25,7 @@ interface ServerContent {
   content: string //content message
 }
 
-let get = (ip: string): Option<ServerContent> => {...}
+let get = (connection: ServerConnection): Option<ServerContent> => {...}
 ```
 
 Build a function that uses the option monad and `bind_Option` to handle the server connection. This function first requests the connection and prints the welcome message from the server. After this it uses the server connection to get the content of the server and prints it.
